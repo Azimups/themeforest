@@ -1,0 +1,249 @@
+.top-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:grey;
+    height:50px
+}
+.menu{
+    color: black;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.top-bar ul{
+    display: flex;
+    float: right;
+    margin-right: 60px;
+}
+.top-bar span{
+    margin-left: 60px;
+    color: black;
+}
+.top-bar li{
+    color: black;
+    margin-left: 20px;
+    list-style: none;
+    padding: 10px;
+}
+#intro .intro-img{
+    height: 720px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/intro-bg.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+#intro .title p{
+    font-size: 35px;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+#intro .title a span{
+    text-decoration: none;
+    margin-left: 46%;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    padding: 5px;
+}
+#intro .title span:hover{
+    background-color:black;
+    color: white;
+    transition: 0.5s;
+}
+#intro .title .CGD{
+    margin-bottom: 40px;
+    font-size: 75px;
+}
+#intro .title{
+    margin-top: 310px;
+}
+#aboutme .title{
+    margin-top: 60px;
+    text-align: center;
+}
+.inline{
+    color: grey;
+    font-size: 30px;
+    display: inline;
+}
+.title h2::after{
+    display: block;
+    content: "";
+    content: " ";
+    margin-top: 20px;
+    margin-left: 47%;
+    width: 60px;
+    height: 2px;
+    background-image: linear-gradient(to left,rgb(60, 60, 60),rgb(60, 60, 60));
+    
+}
+.title h2{
+    font-size: 35px;
+    display: inline;
+}
+.title p{
+    margin-top: 30px;
+    color: grey;
+}
+.container .col-12{
+    margin-top: 60px;
+}
+.bio .inline2{
+    display: inline;
+}
+.bio h2{
+    display: inline;
+}
+.bio .text{
+    margin-top: 20px;
+    margin-bottom: 45px;
+    font-size: 16px;
+    line-height: 1.9;
+    color: grey;
+}
+.bio .link span{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+}
+.bio .link span:hover{
+    background-color: grey;
+}
+.my-image{
+    margin-top: 30px;
+}
+#whatido .container{
+    margin-top: 500px;
+}
+#whatido .title p{
+    text-align: center
+}
+#whatido .title{
+    text-align: center;
+}
+.languages .language{
+    margin-top: 40px;
+    text-align: center;
+}
+.languages .language h4{
+    font-size: 18px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.languages .language i{
+    color: grey;
+    font-size: 37px;
+}
+.languages .language p{
+    line-height: 1.7;
+    font-size: 15px;
+    color: grey;
+    width: 330px;
+}
+.languages{
+    display: flex;
+    flex-wrap: wrap;
+}
+#myworks .title{
+    text-align: center;
+}
+.types{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.types li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.types i{
+    display: block;
+    margin-left: 25px;
+}
+.types span{
+    display: block;
+    margin-left: 20px;
+}
+.works{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.works img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#myworks .title i{
+    margin-top: 100px;
+}
+#myworks .title strong{
+    font-size: 20px;
+}
+#myworks .title .title-word{
+    font-size: 20px;
+    margin-left: 250px;
+}
+#contact .title{
+    text-align: center;
+}
+.info{
+    margin-top: 80px;
+}
+.info input{
+    display: block;
+    margin-top: 20px;
+    padding: 20px;
+}
+.info input placeholder{
+    padding: 20px;
+}
+#contact .link{
+    margin-top: 70px;
+    text-align: center;
+}
+#contact .link span{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+#contact .link span:hover{
+    background-color:black;
+    color: white;
+    transition: 0.5s;
+}
+.footer-container{
+    background: #333;
+}
+.last-title p{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.last-title a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.last-title .block a{
+    display: block;
+    margin-top: 30px;
+}
+.social li{
+    list-style: none;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+.social ul{
+    display: flex;
+    margin-left: 620px;
+    margin-top: 50px;
+}
+.last-item{
+    text-align: center;
+    margin-top: 38px;
+}
